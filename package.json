@@ -7,7 +7,7 @@
     "watch": "tsc -w",
     "clean": "rimraf dist",
     "prestart": "npm run clean && npm run build",
-    "start": "func start --verbose",
+    "start": "func start --verbose --typescript",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
